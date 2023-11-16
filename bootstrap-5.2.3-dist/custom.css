@@ -1,0 +1,14 @@
+.card-img {
+    opacity: 75%;
+    background: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7));
+}
+
+.card-body {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+}
