@@ -61,6 +61,11 @@
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .hero-btn {
+        padding: 0px;
+        margin: 0px;
+    }
+    
     .advantages-section {
         flex-direction: column;
         align-content: center;
@@ -73,6 +78,15 @@
 
     .card-body {
         background:none
+    }
+
+    .team-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customers-section {
+        flex-basis: calc(100% / 2 - 30px);
     }
 }
 
