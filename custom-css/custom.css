@@ -1,6 +1,10 @@
+.modal {
+    color: black;
+}
+
 .card-body {
     width: 264px;
-    /*height: 112px;*/
+    height: 112px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +35,7 @@
     padding: 16px 0px;
     text-align: center;
     width: 168px;
-    /*height: 88px;*/
+    height: 88px;
     fill: #8E8F99;
 }
 
