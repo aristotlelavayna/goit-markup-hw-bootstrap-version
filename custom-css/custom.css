@@ -2,6 +2,31 @@
     color: black;
 }
 
+.service-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative; 
+}
+
+.input-label {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.service-input {
+    padding: 12px 40px;
+    border: 1px solid navy;
+    border-radius: 4px;
+}
+
+.service-icon {
+    position: absolute;
+    top: -25%;
+    left: 15px;
+}
+
 .card-body {
     width: 264px;
     height: 112px;
