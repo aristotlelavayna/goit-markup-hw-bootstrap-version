@@ -1,3 +1,7 @@
+.card-title {
+    padding-top: 150px;
+}
+
 .modal {
     color: black;
 }
@@ -99,6 +103,10 @@
         height: auto;
     }
     
+    .card-title {
+        padding: 0%;
+    }
+
     .hero-btn {
         padding: 0%;
         margin: 0%;
@@ -138,6 +146,10 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+    .card-title {
+        padding: 0%;
+    }
 
     .hero-section {
         display: block;
